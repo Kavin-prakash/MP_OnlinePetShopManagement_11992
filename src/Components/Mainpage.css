@@ -1,0 +1,99 @@
+.navbarcontainers {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(255, 255, 76); */
+    /* background-color:  #f9d423; */
+    background-color: rgb(246, 233, 0);
+
+        color: black;
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 1000;
+}
+
+
+
+
+/* --------------------- css for the dark and light theme ---------------------------- */
+
+
+[data-theme='dark'] {
+    background-color: black;
+    color: white;
+
+    .card {
+
+        background-color: black;
+        color: white;
+        border-color: aliceblue;
+    }
+
+    .light-dark-mode {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        transition: all.5s;
+    }
+}
+
+
+
+
+
+
+/* --------------------- css for the dark and light theme ---------------------------- */
+
+.body-containers
+{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    margin:0 ;
+    top: 0;
+    margin-top: 30px;
+}
+
+
+.HomeBackground {
+    margin-top: 100px;
+    height: 500px;
+}
+
+.bgImg {
+    /* background-image: url('../Images/undraw_Good_doggy_re_eet7\ \(1\).png'); */
+    background-image: url('../Images/bg-9.jpg');
+
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.bgHeading {
+    /* border: 3px solid rgb(244, 228, 17); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:15px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+
+
+.body-containers
+{
+    height: 100%;
+    width: 100vw;
+    background-image: url('../Images/bg-7.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}

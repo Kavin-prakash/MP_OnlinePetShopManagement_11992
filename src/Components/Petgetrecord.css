@@ -1,0 +1,12 @@
+img{
+    width: 200px;
+    height: 250px;
+}
+
+.navigationbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(243, 243, 92);
+    
+}

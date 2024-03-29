@@ -1,0 +1,58 @@
+[data-theme='dark'] {
+    background-color: black;
+    color: white;
+
+    .card {
+
+        background-color: black;
+        color: white;
+        border-color: aliceblue;
+    }
+
+    .light-dark-mode {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        transition: all.5s;
+    }
+}
+
+.dashboard
+{
+    height: 100vh;
+    width: 100%;
+
+}
+
+.navbarcontainer
+{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 100%;;
+    background-color: rgb(246, 237, 104);
+}
+
+.dashboard-card-container
+{
+    height: 400px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    /* margin-top: 50px; */
+    justify-content:space-evenly;
+    margin-top: 100px;
+    /* background-image: url('../Images/bg-1.jpg'); */
+    background-position: 100%;
+    
+}
+
+
+.petdetails-content
+{
+    height: 500px;
+    width: 100%;
+    background-color: azure;
+    margin-top: 10px;
+}

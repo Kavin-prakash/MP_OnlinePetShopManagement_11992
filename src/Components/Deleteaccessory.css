@@ -1,0 +1,20 @@
+.deleteaccessory
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 200px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 80px;
+}
+
+
+
+.putcard
+{
+    /* background-color: rgba(18, 11, 18, 0.4); */
+    border: 3px solid rgb(248, 248, 84);
+  
+}
